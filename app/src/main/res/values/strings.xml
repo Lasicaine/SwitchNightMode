@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SwitchNightMode</string>
+    <string name="info">This app helps to restore system UI mode (Dark / Light) on older versions of Android.</string>
+</resources>
