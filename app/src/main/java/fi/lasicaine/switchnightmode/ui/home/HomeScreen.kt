@@ -46,8 +46,7 @@ fun HomeScreen() {
                     bottom = 8.dp
                 ),
                 onClick = {
-                    (context.getSystemService(Context.UI_MODE_SERVICE) as UiModeManager).nightMode =
-                        UiModeManager.MODE_NIGHT_YES
+                    (context.getSystemService(Context.UI_MODE_SERVICE) as UiModeManager).nightMode = UiModeManager.MODE_NIGHT_YES
                 }
             ) {
                 Text("Night Mode ON")
@@ -60,8 +59,7 @@ fun HomeScreen() {
                     bottom = 8.dp
                 ),
                 onClick = {
-                    (context.getSystemService(Context.UI_MODE_SERVICE) as UiModeManager).nightMode =
-                        UiModeManager.MODE_NIGHT_NO
+                    (context.getSystemService(Context.UI_MODE_SERVICE) as UiModeManager).nightMode = UiModeManager.MODE_NIGHT_NO
                 }
             ) {
                 Text("Night Mode OFF")
